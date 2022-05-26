@@ -18,7 +18,7 @@
 #define BUTTON_2 0  //
 */
 
-#define LOOP_SECONDS_DATA 20
+#define LOOP_SECONDS_DATA 5
 
 enum States
 {

@@ -12,13 +12,13 @@
 #include <MHZ19.h>
 #include "main.h"
 
-#define LOOP_SECONDS_CO2 10
+#define LOOP_SECONDS_CO2 4
 #define SCAN_SECONDS_CO2 30
 #define CALIBRATE_SECONDS 40 // timeElapse = 12e5; //  20 minutes in milliseconds
 
 // Nutzung der Schnittstelle UART2
-#define RX2 26 //16 is used for OLED_RST !
-#define TX2 27
+#define RX2 13 //16 is used for OLED_RST !
+#define TX2 12
 
 #define MHZ19_BAUDRATE 9600
 #define MHZ19_PROTOCOL SERIAL_8N1
